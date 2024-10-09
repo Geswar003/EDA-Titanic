@@ -1,7 +1,6 @@
-# EDA-Titanic
-# Exploratory Data Analysis on Titanic Dataset
+# Titanic Dataset Exploratory Data Analysis (EDA)
 
-This project provides an in-depth Exploratory Data Analysis (EDA) on the Titanic dataset. The analysis helps uncover trends, correlations, and patterns within the data to better understand factors influencing passenger survival rates on the Titanic.
+This project provides an in-depth Exploratory Data Analysis (EDA) of the Titanic dataset, which contains information on passengers who were aboard the Titanic. The analysis explores various factors such as survival rate, age, gender, and other demographic variables to uncover insights related to the Titanic tragedy.
 
 # Table of Contents
 
@@ -17,41 +16,45 @@ This project provides an in-depth Exploratory Data Analysis (EDA) on the Titanic
 
 # Project Overview
 
-The Titanic dataset is one of the most well-known datasets used for predictive analysis. In this project, we perform EDA on the dataset, identifying key factors such as age, gender, and socio-economic status that contributed to the survival rates of passengers. The project provides visual insights into the data that can be valuable for both analysts and data scientists.
+The Titanic dataset is a classic in data science, often used to practice data cleaning, visualization, and model building. This project focuses on analyzing the dataset to understand key insights and relationships between different features such as gender, age, ticket class, and survival rate. Through this analysis, we aim to gain a better understanding of the factors that influenced survival.
 
 # Features
 
-- **Data Cleaning**: Handling missing values and preparing the data for analysis.
-- **Data Exploration**: Investigating key features like age, gender, fare, and passenger class to discover patterns.
-- **Survival Rate Analysis**: Analyzing factors that contributed to passenger survival.
-- **Data Visualization**: Graphical representations of survival trends and passenger demographics.
+- **Data Cleaning**: Handling missing values and transforming the data for analysis.
+- **Data Exploration**: Analyzing various attributes like age, gender, class, and survival.
+- **Data Visualization**: Visualizing patterns and correlations within the dataset.
+- **Survival Insights**: Uncovering factors that may have influenced survival rates.
 
 # Dataset
 
-The dataset used in this project is the Titanic passenger data, which provides details about passengers, including their age, sex, class, and survival status.
+The dataset used in this project is the Titanic passenger dataset, which contains information on passengers such as name, age, gender, ticket class, and survival status.
 
-**Data Source**: [Kaggle - Titanic Dataset](https://www.kaggle.com/c/titanic)
+**Data Source**: [Kaggle - Titanic Dataset](https://www.kaggle.com/c/titanic/data)
 
 # Technologies
 
-- **Python**: For data analysis and visualization.
-- **Pandas**: For data manipulation.
-- **Matplotlib/Seaborn**: For creating insightful visualizations.
-- **Jupyter Notebook**: For developing and presenting the analysis.
+- **Python**: For data cleaning, exploration, and visualization.
+- **Pandas**: For data manipulation and analysis.
+- **Seaborn**: For advanced statistical data visualization.
+- **Matplotlib**: For basic plotting and data visualization.
+- **Jupyter Notebook**: For conducting and presenting the analysis.
 
 # Installation
 
 1. Clone the repository:
+   ```bash
    git clone https://github.com/yourusername/titanic-eda.git
-
+   ```
 2. Navigate to the project directory:
+   ```bash
    cd titanic-eda
-
+   ```
 3. Install the required dependencies:
+   ```bash
    pip install -r requirements.txt
-
+   ```
 4. Open the Jupyter Notebook:
+   ```bash
    jupyter notebook
-
+   ```
 5. Run the notebook `EDA_Titanic.ipynb` to view the analysis.
-

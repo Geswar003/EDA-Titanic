@@ -42,5 +42,16 @@ The dataset used in this project is the Titanic passenger data, which provides d
 # Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/eda-titanic.git
+   git clone https://github.com/yourusername/titanic-eda.git
+
+2. Navigate to the project directory:
+   cd titanic-eda
+
+3. Install the required dependencies:
+   pip install -r requirements.txt
+
+4. Open the Jupyter Notebook:
+   jupyter notebook
+
+5. Run the notebook `EDA_Titanic.ipynb` to view the analysis.
+

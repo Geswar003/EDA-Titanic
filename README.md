@@ -58,3 +58,15 @@ The dataset used in this project is the Titanic passenger dataset, which contain
    jupyter notebook
    ```
 5. Run the notebook `EDA_Titanic.ipynb` to view the analysis.
+
+# Usage
+
+- Open the Jupyter Notebook and run the cells sequentially to perform the analysis.
+- Explore the visualizations and insights provided in the notebook.
+- Modify the analysis or data visualizations to fit your own use case.
+
+# Project Structure
+
+- `data/`: Contains the Titanic dataset used for the analysis.
+- `notebooks/`: Jupyter notebook containing the EDA.
+- `README.md`: Project documentation.
